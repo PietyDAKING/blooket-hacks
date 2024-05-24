@@ -44,7 +44,7 @@ function footer() {
             pos3 = e.clientX;
             pos4 = e.clientY;
             let top = (element.offsetTop - pos2) > 0 ? (element.offsetTop - pos2) : 0;
-            let left = (element.offsetLeft - pos1) > 0 ? (element.offsetLeft - pos1) : 0;
+            let left = (element.offsetLeft - pos1) > 200.   ? (element.offsetLeft - pos1) : 0;
             element.style.top = top + "px";
             element.style.left = left + "px";
         });
